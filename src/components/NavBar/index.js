@@ -6,7 +6,7 @@ import 'semantic-ui-css/semantic.min.css';
 
 const NavBar = () => {
 
-  const [ activeItem, setActiveItem ] = useState('Accueil'); 
+  const [ activeItem, setActiveItem ] = useState('Library Game'); 
 
   const handleItemClick = (e, { name }) => {
     setActiveItem(name);
@@ -17,22 +17,22 @@ const NavBar = () => {
     <Menu inverted pointing secondary>
       <NavLink to="/">
         <Menu.Item
-          name='Accueil'
-          active={activeItem === 'Accueil'}
+          name='Library Game'
+          active={activeItem === 'Library Game'}
           onClick={handleItemClick}
         />
       </NavLink>
       <NavLink to="/platforms">
         <Menu.Item
-          name='plateformes'
-          active={activeItem === 'plateformes'}
+          name='platforms'
+          active={activeItem === 'platforms'}
           onClick={handleItemClick}
         />
       </NavLink>
-      <NavLink to="/tag">
+      <NavLink to="/genres">
         <Menu.Item
-          name='genre'
-          active={activeItem === 'genre'}
+          name='genres'
+          active={activeItem === 'genres'}
           onClick={handleItemClick}
         />
       </NavLink>
