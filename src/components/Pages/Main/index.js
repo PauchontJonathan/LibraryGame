@@ -45,7 +45,7 @@ const handlePage = (e) => {
   return (
     <div className="main">
     <h1 className="main-title">Library Game</h1>
-    <p>Library Games is a web application where you can find different sort of games, platforms and genres informations. Feel free to test it ! Here some games, check it out !</p>
+    <p>Library Games is a web application where you can find different sort of video games, platforms and genres informations. Feel free to test it ! Here some games, check it out !</p>
     { isGameCharged && (
       <>
       <Card.Group className="main-games">
