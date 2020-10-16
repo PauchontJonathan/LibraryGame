@@ -14,7 +14,7 @@ import App from 'src/components/App';
 // == Render
 // 1. Le composant racine (celui qui contient l'ensemble de l'app)
 const rootComponent = (
-  <Router exact basename='/librarygames'>
+  <Router exact basename="/librarygames">
     <App />
   </Router>
 );

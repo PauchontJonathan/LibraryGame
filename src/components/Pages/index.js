@@ -9,6 +9,9 @@ const Pages = () => (
     <Route exact path="/">
       <Main />
     </Route>
+    <Route exact path="/:page">
+      <Main />
+    </Route>
   </div>
 )
 
